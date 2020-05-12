@@ -20,6 +20,9 @@ describe('full-sum', () => {
     test('fullSum(undefined) => error', () => {
       expect(() => fullSum(undefined)).toThrowError();
     });
+    test('fullSum(1, 1, 1, NaN, 1) => error', () => {
+      expect(fullSum(1, 1, 1, NaN, 1)).toThrowError();
+    });
   });
   describe('should correct work', () => {
     test('fullSum(1,2,3) === 6', () => {
@@ -33,9 +36,6 @@ describe('full-sum', () => {
     });
     test('fullSum(1, 1, 1, 1, 1) === 5', () => {
       expect(fullSum(1, 1, 1, 1, 1)).toBe(5);
-    });
-    test('fullSum(1, 1, 1, NaN, 1) === NaN', () => {
-      expect(fullSum(1, 1, 1, NaN, 1)).toBe(NaN);
     });
   });
 });
