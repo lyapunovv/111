@@ -1,5 +1,5 @@
 function isEqual(a, b) {
-  // код сюда
+  // Напиши свой код здесь
 }
 
 window.isEqual = isEqual;

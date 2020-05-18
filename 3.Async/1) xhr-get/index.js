@@ -1,5 +1,5 @@
 function xhrGet(url) {
-  // код сюда
+  // Напиши свой код здесь
 }
 
 window.xhrGet = xhrGet;

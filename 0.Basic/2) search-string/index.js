@@ -1,5 +1,5 @@
 function searchString(obj) {
-  // код сюда
+  // Напиши свой код здесь
 }
 
 window.searchString = searchString;

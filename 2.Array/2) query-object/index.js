@@ -1,5 +1,5 @@
 function queryToObject(query) {
-  // код сюда
+  // Напиши свой код здесь
 };
 
 window.queryToObject = queryToObject;

@@ -8,7 +8,7 @@
  */
 
 class TokenService {
-  // код сюда
+  // Напиши свой код здесь
 }
 
 window.TokenService = TokenService;

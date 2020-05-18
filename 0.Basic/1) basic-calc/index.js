@@ -1,5 +1,5 @@
 function basicCalc(operation, a, b) {
-  // код сюда
+  // Напиши свой код здесь
 }
 
 window.basicCalc = basicCalc;
