@@ -21,7 +21,7 @@ describe('full-sum', () => {
       expect(() => fullSum(undefined)).toThrowError();
     });
     test('fullSum(1, 1, 1, NaN, 1) => error', () => {
-      expect(fullSum(1, 1, 1, NaN, 1)).toThrowError();
+      expect(() => fullSum(1, 1, 1, NaN, 1)).toThrowError();
     });
   });
   describe('should correct work', () => {
