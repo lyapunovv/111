@@ -1,5 +1,16 @@
 function sumCheck(a, b) {
-  // Напиши свой код здесь
+
+  let sum;
+
+    if(typeof(a)=="number"&&typeof(b)=="number"){
+     sum=a+b; 
+     return sum;
+    }
+      else {
+        throw "Wrong arguments type!";
+      }
+   
+  
 }
 
 window.sumCheck = sumCheck;
