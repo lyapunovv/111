@@ -1,0 +1,15 @@
+.bg{
+    background-color:#909090;
+}
+.page{background-color: #ffffff;
+    margin: 10px 10% 20px 10%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+
+}
+.form{
+    padding: 20px;
+}
+.input{
+    margin: 5px;
+}

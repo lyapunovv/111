@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical task</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="bg">
+   <div class="page" >
+       <h1>Test task.</h1>
+       <p>Сделать форму в которой будет 1 поле ввода и 1 кнопка с типом submit
+        по нажатию на копку нужно добавить в форму еще одно поле ввода которое будет содержать текст из предидущего поля ввода.
+        Четные поля ввода должны содержать текст из предидущего поля ввода в верхним регистре а нечетные в нижнем, если текст из предудущего инпута содержит текст 555 необходимо перед установкой его в новое поле ввода заменить на ---</p>
+       <form class="form" onsubmit="submitForm(event);" id="d">
+           <input type="text" name="pole1" id="text1" class="input">
+           <input type="submit" value="Добавить поле" id="sci" onclick="CloneInput();">
+           <br>
+        </form>
+   </div>
+   <script src="index.js"></script>   
+</body>
+</html>
