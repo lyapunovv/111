@@ -1,0 +1,88 @@
+.bg{
+    background-color:#909090;
+}
+.page{background-color: #ffffff;
+    margin: 10px 10% 20px 10%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+ 
+}
+.idiv{
+    border: 1px #909090 solid;
+    border-radius: 2px;
+    margin: 5px 25% 5px 25%;
+    padding: 5px;
+}
+input.textinput:active {
+    outline: none;
+    outline-offset: none;
+    border: none;
+    float: left;
+}
+input.textinput {
+    outline: none;
+    outline-offset: none;
+    border: none;
+    float: left;
+}
+.ibutton{
+    background-color:#60b896;
+    border-radius: 3px;
+    border: #099660;
+    color:#ffffff;  
+}
+.colordiv{
+    border: 1px #909090 solid;
+    height: 10px;
+    width: 10px;
+    float: left;
+    margin: 3px;
+}
+.itemdiv{
+    margin: 5px 24.5% 5px 24.5%;
+    padding: 5px;
+}
+.itemnewdiv {
+   
+    height: 30px;
+    margin-bottom: 5px;
+   
+}
+.checkbox{background-color:#ffffff;
+    float: left;
+    line-height: 30px;
+    width: 20%;
+    margin-top: 1px;
+
+}
+.txt{
+    background-color:#ffffff;
+    margin-top: 1px;
+    float: right;
+    line-height: 30px;
+    width: 79%;
+
+
+}
+.checkbox1{
+    background-color: #909090!important;
+    float: left;
+    line-height: 30px;
+    width: 20%;
+    margin-top: 1px;
+}
+.txt1{
+    background-color: #909090!important;
+    margin-top: 1px;
+    float: right;
+    line-height: 30px;
+    width: 79%;
+    text-decoration: line-through;
+}
+
+#cd0{background-color: #004DFF;}
+#cd1{background-color: #ffa400;}
+#cd2{background-color: #008000;}
+#cd3{background-color: #ff0000;}
+#cd4{background-color: #00d669;}
+#cd5{background-color: #530cff;}

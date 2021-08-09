@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanila to do</title>
+    <link rel="stylesheet" type="text/css" href="style.css">  
+</head>
+<body class="bg">
+    <div class="page">
+        <h4>You to do</h4>
+        <form clas="form" onsubmit="submitForm(event);">
+        <div class="itemdiv" id="item">
+        </div>
+    </form>
+        <form class="form" onsubmit="submitForm(event);" >
+            <div class="idiv">
+                <input type="text" class="textinput" id="text" placeholder="Add new item"/>
+                <div class="colordiv" id="cd0" onclick="colorInput('cd0');"></div>
+                <div class="colordiv" id="cd1" onclick="colorInput('cd1');"></div>
+                <div class="colordiv" id="cd2" onclick="colorInput('cd2');"></div>
+                <div class="colordiv" id="cd3" onclick="colorInput('cd3');"></div>
+                <div class="colordiv" id="cd4" onclick="colorInput('cd4');"></div>
+                <div class="colordiv" id="cd5" onclick="colorInput('cd5');"></div>
+                <input type="submit" value=Add class=ibutton onclick="createInput('text');">
+            </div>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>
